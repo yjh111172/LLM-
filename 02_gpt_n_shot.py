@@ -28,7 +28,8 @@ few_shot_msg = [
     {"role": "assistant", "content": "히이잉"},
         {"role": "user", "content": "개구리"},
     {"role": "assistant", "content": "개굴개굴"},
-    {"role": "user", "content": "오리"}
+    {"role": "user", "content": "오리"},
+    {"role": "assistant", "content": "꽥꽥"}
 ]
 
 zero_response = client.chat.completions.create(
